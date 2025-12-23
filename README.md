@@ -1,77 +1,59 @@
-📌 Overview
+# PERSONAL_WEBSITE
 
-This is a personal website developed using ASP.NET Core MVC, focusing on front-end design while applying the MVC architecture.
-The project demonstrates the use of C#, Razor views, HTML, and CSS to create a structured and responsive web application.
+A simple personal website built using **ASP.NET Core MVC**, **C#**, **HTML**, and **CSS**.  
+This project focuses mainly on **front-end design** while following the MVC structure.
 
-⚠️ Note: This project cannot run directly on GitHub Pages because it uses C# and ASP.NET. It must be run locally or deployed to a supported hosting service.
+---
 
-🛠️ Technologies Used
+## Technologies
+- C#
+- ASP.NET Core MVC
+- Razor (.cshtml)
+- HTML
+- CSS
 
-C#
+---
 
-ASP.NET Core MVC
+## How to Run (Local)
+1. Install **Visual Studio 2022** and **.NET SDK 6+**
+2. Open `PersonalSite.sln`
+3. Click **Run (F5)**
+4. Website opens in your browser using `localhost`
 
-Razor Views (.cshtml)
+---
 
-HTML5 / CSS3
+## How to Deploy Online
+This project **cannot run on GitHub Pages** because it uses C#.
 
-Visual Studio 2022
+You can deploy it using:
+- Azure App Service
+- Render
+- Railway
 
-📂 Project Structure
-├── Controllers
-│   ├── HomeController.cs
-│   └── ContactController.cs
-├── Models
-│   ├── Profile.cs
-│   └── ErrorViewModel.cs
-├── Views
-│   ├── Home
-│   │   └── Index.cshtml
-│   ├── Shared
-│   │   └── _Layout.cshtml
-│   └── Error.cshtml
-├── wwwroot
-│   └── images (me.jpg)
-├── Program.cs
-├── appsettings.json
-├── PersonalSite.sln
-└── README.md
+Basic setup:
+Build Command: dotnet build
+Start Command: dotnet run
 
-🚀 How to Run Locally
-✅ Requirements
+---
 
-.NET SDK 6.0 or later
+## Static Version (GitHub Pages)
+For front-end only:
+1. Convert `.cshtml` to `.html`
+2. Remove all C# code
+3. Upload files to GitHub
+4. Enable **GitHub Pages**
 
-Visual Studio 2022
-(with ASP.NET and Web Development workload)
+Live URL:
+https://your-username.github.io/repository-name/
 
-▶ Run Using Visual Studio (Recommended)
+---
 
-Clone the repository:
+## Notes
+- GitHub is for code hosting only
+- ASP.NET apps must run on a server
+- Static version has no backend logic
 
-git clone https://github.com/your-username/your-repo-name.git
+---
 
-
-Open Visual Studio 2022
-
-Open:
-
-PersonalSite.sln
-
-
-Click Run (F5)
-
-The site will open in your browser:
-
-https://localhost:xxxx
-
-▶ Run Using Command Line
-cd PersonalSite
-dotnet run
-
-
-Then open:
-
-http://localhost:5000
-or
-https://localhost:5001
+## Purpose
+Educational and portfolio use.
